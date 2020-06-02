@@ -1,6 +1,7 @@
 /*tri avec wait() notify()*/
 
 
+
 public class Trieur extends Thread {
 
 private int[] t; 

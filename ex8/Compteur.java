@@ -1,5 +1,6 @@
 import java.util.Random;
 
+
 public class Compteur extends Thread {
 private String nom;    
 private int n;

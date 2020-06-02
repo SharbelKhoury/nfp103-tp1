@@ -2,6 +2,7 @@ public class Operation extends Thread {
     private Compte compte;
     private static final Object lock = new Object();
 
+
     public Operation(String nom, Compte compte) {
         super(nom);
         this.compte = compte;
